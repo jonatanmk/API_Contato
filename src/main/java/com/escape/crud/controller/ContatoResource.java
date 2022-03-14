@@ -18,7 +18,7 @@ import com.escape.crud.services.ContatoServices;
 
 @RestController
 @RequestMapping("/contatos")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://escape-viagens.vercel.app")
 public class ContatoResource {
 	
 	@Autowired
